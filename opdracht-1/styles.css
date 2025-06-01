@@ -1,0 +1,96 @@
+/*Navbar 1*/
+
+.navbar-one ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+}
+
+/*Navbar 2*/
+
+.navbar-two ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    list-style: none;
+}
+
+/*Navbar 2*/
+
+.navbar-three div {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.navbar-three {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.navbar-three div {
+    gap: 8px;
+}
+
+.navbar-three ul {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+/*Navbar 4*/
+
+.navbar-four {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-4-logo {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.nav-4-link {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.nav-4-button {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 8px;
+}
+
+/*Navbar 5*/
+
+.navbar-five {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-5-logo {
+    display: flex;
+    flex-direction: row;
+    gap: 8px;
+}
+
+.nav-5-link {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+}
+
+.nav-5-button {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 8px;
+}
