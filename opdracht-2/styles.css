@@ -1,0 +1,174 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.dev {
+    border: 2px dashed red;
+}
+
+/* Hoofdcontainer die alles in twee kolommen verdeelt */
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+
+/* Linker zijmenu */
+.nav-aside {
+    display: flex;
+    flex-direction: column;
+    flex: 1 0 250px;
+    background-color: #eee;
+    padding: 1rem;
+}
+
+.nav-logo {
+    display: flex;
+    flex-direction: row;
+    font-weight: bolder;
+    font-size: 1.2rem;
+    gap: 1rem;
+    padding: 1rem 0 2.5rem 1rem;
+    align-items: center;
+}
+.nav-links {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    flex: 1;
+}
+.nav-links li {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+.nav-links li a {
+    display: block;
+    width: 100%;
+    text-decoration: none;
+}
+.nav-links img {
+    width: auto;
+    height: auto;
+    margin-right: 1rem;
+    vertical-align: middle;
+}
+
+.nav-buttons {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    row-gap: 0.5rem;
+}
+
+.nav-buttons button {
+    display: block;
+    width: 100%;
+    text-decoration: none;
+}
+
+.nav-links img {
+    width: 25px;
+}
+
+/* Rechter contentgebied */
+
+.main-content {
+    flex: 11 1 0;
+    min-width: 0;
+    display: flex;
+    flex-direction: column;
+}
+.header-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    padding: 5rem 5rem;
+    background-color: #1e2b32;
+    background-image: url("../assets/placeholder-image.svg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.article-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+    gap: 2rem;
+    padding: 2rem 14rem;
+}
+
+@media (max-width: 1300px) {
+    .article-container {
+        padding: 2rem 2rem;
+    }
+}
+.article-box {
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 260px;
+    max-width: 260px;
+    padding: 1rem;
+    row-gap: 1rem;
+}
+.product-info-image {
+    width: 100%;
+    height: auto;
+}
+.product-info-one {
+    flex-grow: 1;
+}
+.product-info-title {
+    font-weight: bolder;
+    font-size: 1.1rem;
+    line-height: 2rem;
+}
+.product-info-desc {
+    font-size: 0.9rem;
+    line-height: 1rem;
+    height: auto;
+}
+.product-info-two {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    vertical-align: middle;
+}
+.product-purchase {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    flex: 1;
+}
+.product-info-price {
+    font-size: 1rem;
+}
+.product-info-share {
+    width: 1rem;
+}
+
+.product-info-button {
+    display: block;
+    width: 100%;
+}
+
+
+
+
+
+
+
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 1rem;
+    background-color: #383838;
+    color: white;
+}
